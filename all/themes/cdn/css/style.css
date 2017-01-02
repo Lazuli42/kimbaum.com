@@ -1,0 +1,180 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+  background-color: #59ccf2;
+  background-image: url("../background.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: top right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body.admin-menu.navbar-is-fixed-top {
+  padding-top: 50px;
+}
+
+a {
+  color: #004E68;
+}
+
+#page-header {
+  width: 100%;
+  /*background-color: #FFE4A4;*/
+  text-align: center;
+}
+
+.front-top-row {
+  margin-bottom: 0;
+}
+
+.front-row-bottom {
+    padding-top: -20px;
+}
+
+img {
+  border: 5px solid #5F6565;
+}
+
+.mouse-over-text {
+    display: none;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+        bottom: 250px;
+}
+
+img:hover + .mouse-over-text {
+    display: block;
+}
+
+.container {
+  // background-color: #F3FBFE;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.panels-flexible-region-3-left,
+.panels-flexible-region-3-right,
+.panels-flexible-region-3-left_,
+.panels-flexible-region-3-right_, {
+  max-height: 20%;
+  width: auto;
+}
+
+#block-search-form {
+  max-width: 25%;
+  float: right;
+}
+.panels-flexible-region-2-center,
+.panels-flexible-region-2-second,
+.panels-flexible-region-2-third,
+.panels-flexible-region-2-fourth {
+  width: 25%;
+}
+
+#block-block-1 {
+  max-width: 25%;
+  margin-right: -75%;
+}
+
+#node-1 img {
+  float: left;
+  margin: 12px;
+}
+
+.page-header {
+  margin-top: 12px;
+  text-align: center;
+  font-family: "Junction", sans-serif;
+  text-shadow:
+   -1px -1px 0 whitesmoke,
+    1px -1px 0 whitesmoke,
+   -1px  1px 0 whitesmoke,
+    1px  1px 0 whitesmoke;
+} #page-header {
+  text-shadow:
+   -1px -1px 0 whitesmoke,
+    1px -1px 0 whitesmoke,
+   -1px  1px 0 whitesmoke,
+    1px  1px 0 whitesmoke;
+} #page-header h2 {
+  font-size: 5em;
+} #page-header p {
+  font-size: 1.5em;
+}
+
+#navbar {
+  margin-bottom: 0;
+}
+
+.panels-flexible-row-last {
+ position: relative;
+ top: -50px;
+}
+
+.logo {
+  color: #FF7258;
+  font-size: 3em;
+}
+
+.region-content {
+  margin-top: 12px;
+}
+
+.landing-title-left, .landing-title-right {
+  color: cornsilk;
+  position: relative;
+  bottom: 100px;
+  background-repeat: no-repeat;
+  padding: 5px;
+  padding-bottom: 15px;
+} .landing-title-left {
+    padding-right: 25px;
+    text-align: right;
+    position: relative;
+    right: 300px;
+    background-image: url('../flag-left.png');
+    background-position: right;
+
+} .landing-title-right {
+  padding-left: 25px;
+  text-align: left;
+  position: relative;
+  left: 300px;
+  background-image: url('../flag-red.png');
+  background-position: left;
+}
+
+.btn-primary {
+  background-color: #01B4EF;
+}
+
+.maintenance-page {
+  text-align: center;
+  color: #F3FBFE;
+  margin-top: 5em;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  left: 0 ; right: 0; bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #FFE4A4;
+}
+
+.col-* {
+  padding-left: 1px;
+  padding-right: 1px;
+}
